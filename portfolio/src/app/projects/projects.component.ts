@@ -8,12 +8,12 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects = [
     {
-      image: 'path-to-image-1.jpg',
+      image: 'assets/spartan_soccer_sc.png',
       title: 'Project 1',
       description: 'Description of Project 1'
     },
     {
-      image: 'path-to-image-2.jpg',
+      image: 'assets/recipeapp.png',
       title: 'Project 2',
       description: 'Description of Project 2'
     },

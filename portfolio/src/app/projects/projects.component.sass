@@ -1,24 +1,24 @@
 .projects
-  padding-top: 5rem  /* Adjust the value as needed */
+  padding-top: 8rem  /* Adjust the value as needed */
   display: flex
   flex-wrap: wrap
-  justify-content: center
-  gap: 2rem
+  justify-content: space-between
+  
 
   .project
     display: flex
-    align-items: center
-    width: 100%
-    max-width: 600px
+    flex-direction: column
+    align-items: center  /* Center contents horizontally */
+    width: calc(50% - 1rem)  /* Adjust as needed */
     margin-bottom: 2rem
 
     img
       max-width: 100%
       height: auto
+      width: 85%  /* Adjust to make images slightly smaller */
 
     .project-description
       padding-left: 1rem
-
       h3
         font-size: 1.5rem
         margin-bottom: 0.5rem

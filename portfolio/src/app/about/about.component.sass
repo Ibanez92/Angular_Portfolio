@@ -16,6 +16,35 @@
     align-items: center
     color: white
 
-.about-content
-  text-align: center
-  padding: 2rem
+  .about-content
+    text-align: center
+    padding: 2rem
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100%  /* Ensure full height for flex alignment */
+
+    .image-description-container
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 100% /* Ensure full width for flex alignment */
+
+      .image-container,
+      .description-container
+        width: 50% /* Equal width for both containers */
+        padding: 1rem /* Add padding for spacing */
+
+      .image-container
+        img
+          max-width: 60%
+          height: auto
+          display: block
+          margin: 0 auto /* Center the image horizontally */
+
+      .description-container
+        text-align: left
+
+        p
+          font-size: 1.2rem
+          line-height: 1.5

@@ -4,6 +4,10 @@
   flex-wrap: wrap
   justify-content: space-between
   
+  h3
+    font-size: 1.5rem
+    margin-bottom: 1rem
+    text-align: center
 
   .project
     display: flex
@@ -13,20 +17,21 @@
     margin-bottom: 2rem
 
     img
+      max-height: 100%
       max-width: 100%
-      height: auto
-      width: 96%  /* Adjust to make images slightly smaller */
+      height: 290px
+      width: 86%  /* Adjust to make images slightly smaller */
       margin-bottom: 1rem
-      border: 2px solid #000080
-      max-height: 300px
-
+      border: 3px solid #000080
+      object-fit: contain
+      transition: transform 0.3s ease /* Smooth transition for the zoom effect */
+  
+      &:hover 
+        transform: scale(1.1) /* Scale the image by 1.1 times when hovering */
 
     .project-description
       padding-left: 1rem
-      h3
-        font-size: 1.5rem
-        margin-bottom: 1rem
-        text-align: center
+      
 
       p
         font-size: 1rem

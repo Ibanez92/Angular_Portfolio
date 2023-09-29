@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class ProjectsComponent {
   projects = [
     {
-      image: 'assets/tictactoe.png',
+      image: 'assets/tictactoe_wide.png',
       title: 'TicTacToe',
       website: 'https://tictactoe-e327a.web.app/',
       description: "I have created an engaging TicTacToe application using the Angular framework in JavaScript. Leveraging the power of Angular, I have built a dynamic and interactive gaming experience. The application is deployed as a Progressive Web Application (PWA) on the Firebase platform, providing seamless accessibility across devices. Users can conveniently install the game on their desktops with the browser's install button, ensuring a smooth transition to a desktop-like experience. This project showcases my knowledge in Angular, JavaScript, and PWA development, delivering a captivating and user-friendly gaming application." 
